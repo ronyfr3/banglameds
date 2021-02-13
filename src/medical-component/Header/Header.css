@@ -1,0 +1,182 @@
+.header-wrapper{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    color: white;
+    background-color: rgb(4,176,240);
+}
+.note{
+  font-size: 25px;
+  position: relative;
+  top: 7px;
+  padding-right: 5px;
+}
+.header-wrapper ul{
+    position: relative;
+    top: -12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-wrapper ul li:nth-child(1){
+    position: relative;
+    left: -100px;
+    font-size: 17px;
+    pointer-events: none;
+}
+.header-wrapper ul li:nth-child(2){
+    position: relative;
+    left: -300px;
+    top: 3px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.header-wrapper ul li:nth-child(3){
+    position: relative;
+    left: -520px;
+    top: 3px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.header-wrapper ul li:nth-child(4){
+    font-size: 17px;
+    position: relative;
+    top: -5px;
+    cursor: pointer;
+}
+.logo-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 57px;
+}
+.logo-wrapper-image img{
+    position: relative;
+    left: 36px;
+    cursor: pointer;
+}
+.logo-wrapper-title{
+    color: rgb(4,176,240);
+    font-size: 19px;
+    font-weight: 540;
+}
+.header-title-input input{
+    position: relative;
+    top: -7px;
+    padding: 14px;
+    width: 550px;
+    outline: none;
+    border: 1px solid black;
+}
+/* edit placeholder */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgb(4,176,240);
+    font-size:18px;
+     font-family: 'Bitter', serif;
+    
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: rgb(4,176,240);
+    font-size:18px;
+     font-family: 'Bitter', serif;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: rgb(4,176,240);
+    font-size:18px;
+     font-family: 'Bitter', serif;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: rgb(4,176,240);
+    font-size:18px;
+     font-family: 'Bitter', serif;
+  }
+.header-logo-btn{
+    position: relative;
+    top: 25px;
+    left: -65px;
+    width: 110px;
+    height: 45px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(4,176,240);
+}
+.logo-wrapper-man-logo{
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+    left: -23px;
+    color: rgb(4,176,240);
+    font-size: 32px;
+}
+.logo-wrapper-signin{
+    position: relative;
+    top: 27px;
+    left: -70px;
+    font-size: 17px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.covid-wrapper{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 47px;
+    background-color: rgb(4,176,240);
+}
+.covid-wrapper ul{
+    position: relative;
+    top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.covid-wrapper ul li{
+    position: relative;
+    left: -20px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 6px;
+}
+.covid-wrapper ul li:hover{
+    position: relative;
+    top: 3px;
+    border-bottom: 5px solid rgb(1,146,204);
+}
+.covid-wrapper ul li:nth-child(1):hover{
+    border-bottom: none;
+}
+.covid-wrapper ul li:nth-child(1){
+    position: relative;
+    top: 3px;
+    left: 5px;
+    font-size: 27px;
+}
+.cartcount{
+    background-color: red;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 2px 5px 2px 5px;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 3px;
+}
+.footer-logos{
+    position: relative;
+    top: 19px;
+    left: -10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cartlogo{
+    position: relative;
+    top: 18px;
+    left: 6px;
+}

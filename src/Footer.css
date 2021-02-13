@@ -1,0 +1,53 @@
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 0;
+    top: 300px;
+}
+
+.infoabout ul li{text-align: start; cursor: pointer; padding-top: 5px;}
+.contactapartment ul li{text-align: start; cursor: pointer; padding-top: 5px;}
+.banglaincrease ul li{text-align: start; cursor: pointer; padding-top: 5px;}
+
+.infofooter{
+    color: rgb(4,176,240);
+    font-size: 20px;
+}
+.contactus{
+    color: rgb(4,176,240);
+    font-size: 20px;
+}
+.banglaincrease{
+   position: relative;
+   top: -50px;
+}
+.infoabout{
+    position: relative;
+    top: -30px;
+}
+.contactapartment{
+    position: relative;
+    top: -30px;
+}
+.banglaincrease img{
+    position: relative;
+    top: 15px;
+}
+.footerlastpart{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    border-top: 1px solid rgb(204,204,204);
+}
+.dev{
+    padding-right: 272px;
+}
+.atherate{
+    padding-left: 272px;
+}

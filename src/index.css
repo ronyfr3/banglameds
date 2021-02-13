@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400&display=swap');
+*{
+  list-style:none;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bitter', serif;
+  font-weight: 550;
+}
+a{
+  color: black;
+}

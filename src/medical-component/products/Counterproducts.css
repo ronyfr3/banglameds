@@ -1,0 +1,86 @@
+.overhtecount{
+    position: relative;
+    top: 130px;
+}
+.counterproducts{
+    position: relative;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid rgb(4,176,204) ;
+    border-bottom: 2px solid rgb(4,176,204) ;
+
+}
+
+.overthetext{
+    position: relative;
+    top: 90px;
+    font-size: 19px;
+    color:  rgb(4,176,204);
+    font-weight: 600;
+}
+.babymom{
+    width: 240px;
+}
+.childcare{
+    width: 240px;
+}
+.paperapkins{
+    width: 240px;
+}
+.eyecare{
+    width: 260px;
+}
+.babymom ul li{
+  text-align: start;
+  border-bottom: 1px dotted rgb(4,176,204);
+  padding: 10px 0 10px 0;
+  font-size: 17px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.babymom ul li:hover{
+    border-bottom: 2px solid rgb(4,176,204);
+    margin-bottom: -1px;
+}
+.eyecare ul li{
+  text-align: start;
+  border-bottom: 1px dotted rgb(4,176,204);
+  padding: 10px 0 10px 0;
+  font-size: 17px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.eyecare ul li:hover{
+    border-bottom: 2px solid rgb(4,176,204);
+    margin-bottom: -1px;
+}
+.childcare ul li{
+  text-align: start;
+  border-bottom: 1px dotted rgb(4,176,204);
+  padding: 10px 0 10px 0;
+  font-size: 17px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.childcare ul li:hover{
+    border-bottom: 2px solid rgb(4,176,204);
+    margin-bottom: -1px;
+}
+.paperapkins ul li{
+  text-align: start;
+  border-bottom: 1px dotted rgb(4,176,204);
+  padding: 10px 0 10px 0;
+  font-size: 17px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.paperapkins ul li:hover{
+    border-bottom: 2px solid rgb(4,176,204);
+    margin-bottom: -1px;
+}
+

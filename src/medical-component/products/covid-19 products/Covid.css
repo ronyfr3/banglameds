@@ -1,0 +1,65 @@
+.covidapidata{
+    position: relative;
+    top:100px;
+    left: 61px;
+    background-color: rgb(245,245,245);
+    width: 1226px;
+    height: 300px;
+    border: 1px solid rgb(4,176,240);
+}
+.ksjkbsd{
+   position: relative;
+   top: 20px;
+}
+.aknojore{
+    font-size: 20px;
+    color: rgb(4,176,240);
+}
+.wrpaeerdvis{
+    position: relative;
+    top: 25px;
+}
+.traikhcovid{
+    font-size: 17px;
+    color: rgb(4,176,240);
+    margin-bottom: 40px;
+}
+.traiksd{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.traiksd span{
+    color: rgb(4,176,240);
+}
+.traiksd p{
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 0 0 20px 20px;
+}
+
+.covideheader{
+    position: relative;
+    top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.covid-header-title{
+    padding-bottom: 5px;
+    font-size: 19px;
+    color:  rgb(4,176,240);
+    font-weight: 600;
+    border-radius: 2px;
+    border-bottom: 3px solid rgb(4,176,204);
+}
+.hr{
+    position: relative;
+    top: 30px;
+    width: 90vw;
+    height: 10px;
+}

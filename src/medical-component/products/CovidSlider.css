@@ -1,0 +1,46 @@
+a{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+.wraperisvjskvjh{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+}
+.covid-image{
+    width:180px;
+    height:160px;
+}
+
+.covid-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(4,176,204);
+    width:230px;
+    height:260px;
+    margin: 30px 10px 0 10px ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.covid-products img{
+    width:100%;
+    height:100%;
+    padding-top: 25px;
+}
+
+.covidtitle{
+    padding-top: 25px;
+}
+.covidprice{
+    position: relative;
+    top: -15px;
+}
